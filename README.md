@@ -8,6 +8,6 @@ Dupa login prin intermediul aplicatiei se pot popula tabele "courses" "/user/add
 
 Modificarea si stergerea datelor din tabela respectiv update si delete se realizeaza doar pentru datele din tabela "courses" la "/user/updateCurs/{cursId}" si "user/deleteCurs/{cursId}".
 
-Legatura dintre cele 2 tabele "courses" si "students" poate fi exemplificata prin request de tip put la "/addStudentToCourses/{cursId}"
+Legatura dintre cele 2 tabele "courses" si "students" poate fi exemplificata printr-un request de tip put la "/addStudentToCourses/{cursId}"
 
 Dupa realizarea consistentei datelor se poate realiza o afisare a cursurilor si a tuturor studentilor ce participa la cursuri printr-un request de tip get "/user/showCoursesWithStudents" dar si a tuturor studentilor si cursurile la care acestia sunt inscrisi "/user/showStudentsWithCourses"
