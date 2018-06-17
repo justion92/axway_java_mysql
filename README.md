@@ -1,6 +1,6 @@
 Aplicatia a fost realizata in Java proiectul fiind scris in Intellij.
 
-Aceasta contine o baza de date "oprea". Baza de date MySQL contine tabelele "courses", "students", "users" si tabela "students_courses" care este tabela de legatura intre "courses" si "students" ca urmare a relatiei many-to-many a celor 2 tabele.
+Aceasta contine o baza de date "oprea". Baza de date MySQL contine tabelele "courses", "students", "users" si tabela "students_courses" care este tabela de legatura creata in mod automat intre "courses" si "students" ca urmare a relatiei many-to-many a celor 2 tabele.
 
 Tabela este utilizata pentru a realiza login-ul pentru utilizarea aplicatiei. Datele din tabela "users" trebuiesc adaugate prin intermediul bazei de date deoarece nu am realizat signup-ul din interiorul aplicatiei. Aplicatia porneste cu requestul de login in "/user/login".
 
