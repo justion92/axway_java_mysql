@@ -6,7 +6,7 @@ Tabela users este utilizata pentru a realiza login-ul pentru utilizarea aplicati
 
 Dupa login prin intermediul aplicatiei se pot popula tabele "courses" "/user/addCurs", "students" "/user/addStud", dupa care afisarea datelor din tabele se poate face cu request tip get la "/user/getAllStud" respectiv "/user/getAllCourses".
 
-Modificarea datelor din tabela respectiv update si delete se realizeaza doar pentru datele din tabela "courses" la "/user/updateCurs/{cursId}" si "user/deleteCurs/{cursId}".
+Modificarea si stergerea datelor din tabela respectiv update si delete se realizeaza doar pentru datele din tabela "courses" la "/user/updateCurs/{cursId}" si "user/deleteCurs/{cursId}".
 
 Legatura dintre cele 2 tabele "courses" si "students" poate fi exemplificata prin request de tip put la "/addStudentToCourses/{cursId}"
 
